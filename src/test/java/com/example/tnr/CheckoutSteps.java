@@ -107,7 +107,7 @@ public void i_choose_a_product_to_add() {
             Actions actions = new Actions(driver);
             actions.click(email)
                     .pause(1000)
-                    .sendKeys("khitem.guerbouj.ext@gmail.com")
+                    .sendKeys("Put Email Here)
                     .perform();
 
             // Fill password
@@ -116,7 +116,7 @@ public void i_choose_a_product_to_add() {
             );
             actions.click(password)
                     .pause(1000)
-                    .sendKeys("Yassine_1144!")
+                    .sendKeys("Put Password Here")
                     .perform();
             // Click login button
            WebElement loginButton = wait.until(
