@@ -25,9 +25,8 @@ import static com.github.tomakehurst.wiremock.client.WireMock.configureFor;
 public class Hooks {
 	public static WebDriver driver;
 	private static WireMockServer wireMockServer;
-	public static final String BASE_URL = "https://storefront:Monceau69@development.jacquemus.com/fr_fr";
-
-	// https://www.jacquemus.com/fr_fr
+	public static final String BASE_URL = "Put B2C URL Here";
+	
 	@Before("@Backend")
 	public void setupWireMock() {
 		// Start MockServer
