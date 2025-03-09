@@ -1,0 +1,8 @@
+com\example\tnr\CucumberTest.class
+com\example\tnr\APIConstants.class
+com\example\tnr\CheckoutSteps.class
+com\example\tnr\ScreenshotUtils.class
+com\example\tnr\Helpers.class
+com\example\tnr\BackendSteps.class
+com\example\tnr\Hooks.class
+com\example\tnr\WireMockUtils.class
